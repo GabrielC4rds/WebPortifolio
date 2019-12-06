@@ -180,10 +180,10 @@ export default function index(props) {
             </Description>
           </DescriptionBox>
           <Buttons>
-            <AllBtn>
+            <AllBtn href={Btn.Linkedin_link}>
                 <p>{Btn.Linkedin_text}</p>
             </AllBtn>
-            <AllBtn>
+            <AllBtn href={Btn.Github_link}>
                 <p>{Btn.Github_text}</p>
             </AllBtn>
           </Buttons>

@@ -269,6 +269,7 @@ function index(props) {
     },
     __self: this
   }, __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
+    href: _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Linkedin_link,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 183
@@ -281,6 +282,7 @@ function index(props) {
     },
     __self: this
   }, _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Linkedin_text)), __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
+    href: _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Github_link,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 186
@@ -455,79 +457,80 @@ var ContentDiv = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.w
 var ServiceCard = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Services__ServiceCard",
   componentId: "sc-1scr0xy-5"
-})(["width:30%;height:100%;box-shadow:0 0 20px rgba(0,0,0,.1);display:flex;justify-content:center;align-items:center;"]);
+})(["width:30%;height:100%;box-shadow:0 0 20px rgba(0,0,0,.1);display:flex;background:#fff;justify-content:center;align-items:center;"]);
 function index(props) {
   return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
     },
     __self: this
-  }, __jsx(TitleDiv, {
+  }, __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: this
+  }, __jsx(TitleDiv, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
   }, __jsx(Title, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Quality ", __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Services")), __jsx(Underline, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69
     },
     __self: this
+  }, "Quality ", __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, "Services")), __jsx(Underline, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
   })), __jsx(ContentDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 72
     },
     __self: this
   }, _props_serviceCards__WEBPACK_IMPORTED_MODULE_2__["ServiceCards"].map(function (res) {
     return __jsx(ServiceCard, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 75
       },
       __self: this
     }, __jsx(_props_serviceCards__WEBPACK_IMPORTED_MODULE_2__["TextsBox"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75
+        lineNumber: 76
       },
       __self: this
     }, __jsx(_props_serviceCards__WEBPACK_IMPORTED_MODULE_2__["TitleCards"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76
+        lineNumber: 77
       },
       __self: this
     }, res.Title_Text), __jsx(_props_serviceCards__WEBPACK_IMPORTED_MODULE_2__["Description"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77
+        lineNumber: 78
       },
       __self: this
     }, res.Desc_Text), __jsx(_props_serviceCards__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      href: res.Link_Link,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78
+        lineNumber: 79
       },
       __self: this
     }, res.Link_Text)));
@@ -4904,15 +4907,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Btn", function() { return Btn; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var AllBtn = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button.withConfig({
+var AllBtn = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.withConfig({
   displayName: "linkButtons__AllBtn",
   componentId: "z0jiz4-0"
-})(["width:17vw;height:7.5vh;background:#4484CE;border:none;display:flex;align-items:center;justify-content:center;margin-right:20px;color:#fff;font-size:18px;"]);
+})(["width:17vw;height:7.5vh;background:#4484CE;border:none;display:flex;align-items:center;justify-content:center;margin-right:20px;color:#fff;padding:0;cursor:pointer;font-size:18px;text-decoration:none;"]);
 var Btn = {
   Linkedin_text: 'LinkedIn',
-  Linkedin_link: '',
+  Linkedin_link: 'https://www.linkedin.com/in/gabriel-cardoso-258576189/',
   Github_text: 'Github',
-  Github_link: ''
+  Github_link: 'https://github.com/GabrielC4rds'
 };
 
 /***/ }),
@@ -4948,22 +4951,25 @@ var Description = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text
   displayName: "serviceCards__Description",
   componentId: "an75lv-2"
 })(["color:gray;font-size:20px;"]);
-var Link = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
+var Link = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
   displayName: "serviceCards__Link",
   componentId: "an75lv-3"
-})(["color:#E3872D;cursor:pointer;font-size:20px;"]);
+})(["color:#E3872D;cursor:pointer;font-size:20px;text-decoration:none;"]);
 var ServiceCards = [{
   Title_Text: 'Web Development',
   Desc_Text: 'Web development is the work involved in developing a web site for the Internet...',
-  Link_Text: 'See More'
+  Link_Text: 'See More',
+  Link_Link: 'https://github.com/GabrielC4rds'
 }, {
   Title_Text: 'Game Development',
   Desc_Text: 'Game development is the work involved in developing a web site for the Internet...',
-  Link_Text: 'See More'
+  Link_Text: 'See More',
+  Link_Link: 'https://gamejolt.com/@GabrielC4rds'
 }, {
   Title_Text: 'VR Development',
   Desc_Text: 'Game development is the work involved in developing a web site for the Internet...',
-  Link_Text: 'See More'
+  Link_Text: 'See More',
+  Link_Link: 'https://play.google.com/store/apps/details?id=com.dvida.pascoa&hl=en_SG'
 }];
 
 /***/ }),

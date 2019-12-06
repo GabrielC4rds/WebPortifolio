@@ -54,6 +54,7 @@ const ServiceCard = styled.div`
   height: 100%;
   box-shadow: 0 0 20px rgba(0,0,0,.1);
   display: flex;
+  background: #fff;
   justify-content: center;
   align-items: center;
 `;
@@ -75,7 +76,7 @@ export default function index(props) {
                   <TextsBox>
                     <TitleCards>{res.Title_Text}</TitleCards>
                     <Description>{res.Desc_Text}</Description>
-                    <Link>{res.Link_Text}</Link>
+                    <Link href={res.Link_Link}>{res.Link_Text}</Link>
                   </TextsBox>
                 </ServiceCard>
               )
