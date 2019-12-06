@@ -50,7 +50,7 @@ export default class MyDocument extends Document {
             type="text/css"
             href="./static/fonts/importFonts.css"
           />
-          <link rel="icon" href="./static/favicon.png" sizes="32x32" />
+          <link rel="icon" href="./static/faviconG.png" sizes="32x32" />
         </Head>
         <body>
           <Main />

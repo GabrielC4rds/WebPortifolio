@@ -63,10 +63,11 @@ const VerticalContent2 = styled.div`
 
 const Title = styled.div`
   width: 100%;
-  height: 7%;
+  height: 15%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+
 `;
 
 const DescriptionBox = styled.div`

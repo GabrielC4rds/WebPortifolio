@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _props_tags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../props/tags */ "./props/tags.js");
 /* harmony import */ var _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../props/linkButtons */ "./props/linkButtons.js");
-var _jsxFileName = "C:\\GitProjects\\WebsitePortifolio\\components\\AboutMe\\index.js";
+var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\AboutMe\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -49,7 +49,7 @@ var VerticalContent2 = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "AboutMe__Title",
   componentId: "yxhggy-6"
-})(["width:100%;height:7%;display:flex;justify-content:flex-start;align-items:flex-start;"]);
+})(["width:100%;height:15%;display:flex;justify-content:flex-start;align-items:flex-start;"]);
 var DescriptionBox = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "AboutMe__DescriptionBox",
   componentId: "yxhggy-7"
@@ -79,217 +79,217 @@ function index(props) {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 126
     },
     __self: this
   }, __jsx(MiniContent, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 127
     },
     __self: this
   }, __jsx(VerticalContent1, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 128
     },
     __self: this
   }, __jsx(BorderIndex, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 129
     },
     __self: this
   }), __jsx(Photo, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 130
     },
     __self: this
   })), __jsx(VerticalContent2, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 132
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 133
     },
     __self: this
   }, __jsx(TitleText, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 134
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 134
     },
     __self: this
   }, "I'm Gabriel Cardoso and ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 134
     },
     __self: this
   }, "Freelancer")))), __jsx(DescriptionBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 136
     },
     __self: this
   }, __jsx(Description, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 137
     },
     __self: this
   }, __jsx(DescriptionText, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 138
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 139
     },
     __self: this
   }, "Hi! My name is ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 139
     },
     __self: this
   }, "Gabriel Cardoso"), ". I am a Web Developer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration."))), __jsx(Description, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 149
     },
     __self: this
   }, __jsx(TagBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 150
     },
     __self: this
   }, _props_tags__WEBPACK_IMPORTED_MODULE_2__["Tag1"].map(function (res) {
     return __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["Block"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 152
+        lineNumber: 153
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["TagIcon"], {
       src: "./static/icons/".concat(res.icon),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 153
+        lineNumber: 154
       },
       __self: this
     }), __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTexts"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 154
+        lineNumber: 155
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTitle"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 155
+        lineNumber: 156
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 156
+        lineNumber: 157
       },
       __self: this
     }, res.textTitle)), __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 158
+        lineNumber: 159
       },
       __self: this
     }, res.textDesc)));
   })), __jsx(TagBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 165
     },
     __self: this
   }, _props_tags__WEBPACK_IMPORTED_MODULE_2__["Tag2"].map(function (res) {
     return __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["Block"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 167
+        lineNumber: 168
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["TagIcon"], {
       src: "./static/icons/".concat(res.icon),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 168
+        lineNumber: 169
       },
       __self: this
     }), __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTexts"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 169
+        lineNumber: 170
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTitle"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 170
+        lineNumber: 171
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 171
+        lineNumber: 172
       },
       __self: this
     }, res.textTitle)), __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 173
+        lineNumber: 174
       },
       __self: this
     }, res.textDesc)));
   })))), __jsx(Buttons, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 182
     },
     __self: this
   }, __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 183
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 184
     },
     __self: this
   }, _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Linkedin_text)), __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 186
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 187
     },
     __self: this
   }, _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Github_text))))));
@@ -310,7 +310,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "C:\\GitProjects\\WebsitePortifolio\\components\\Banner\\index.js";
+var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\Banner\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -427,7 +427,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _props_serviceCards__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../props/serviceCards */ "./props/serviceCards.js");
-var _jsxFileName = "C:\\GitProjects\\WebsitePortifolio\\components\\Services\\index.js";
+var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\Services\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1101,10 +1101,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_24e240eb1453fb0dfc79
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebsitePortifolio%5Cpages%5Cindex.js!./":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebsitePortifolio%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebPortifolio%5Cpages%5Cindex.js!./":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebPortifolio%5Cpages%5Cindex.js ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4855,7 +4855,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner/index.js");
 /* harmony import */ var _components_AboutMe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/AboutMe */ "./components/AboutMe/index.js");
 /* harmony import */ var _components_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Services */ "./components/Services/index.js");
-var _jsxFileName = "C:\\GitProjects\\WebsitePortifolio\\pages\\index.js";
+var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -5038,14 +5038,14 @@ var Tag2 = [{
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebsitePortifolio%5Cpages%5Cindex.js ***!
-  \**************************************************************************************************************************/
+/***/ 0:
+/*!**********************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebPortifolio%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebsitePortifolio%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebsitePortifolio%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebPortifolio%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebPortifolio%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -5061,5 +5061,5 @@ module.exports = dll_24e240eb1453fb0dfc79;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

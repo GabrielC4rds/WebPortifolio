@@ -1443,7 +1443,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\GitProjects\\WebsitePortifolio\\pages\\_document.js";
+var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\pages\\_document.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
@@ -1557,7 +1557,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_9___default.a {
       __self: this
     }), __jsx("link", {
       rel: "icon",
-      href: "./static/favicon.png",
+      href: "./static/faviconG.png",
       sizes: "32x32",
       __source: {
         fileName: _jsxFileName,
