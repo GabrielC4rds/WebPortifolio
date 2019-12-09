@@ -10,6 +10,7 @@ import {
   } from '../../props/tags';
 
 import { AllBtn, Btn } from '../../props/linkButtons';
+import Typical from 'react-typical';
 
 //Styled Div
 const Main = styled.div`
@@ -102,7 +103,7 @@ const Buttons = styled.div`
 //Styled Text
 
 const TitleText = styled.text`
-  font-size: 30px;
+  font-size: 28px;
   color: black;
   span{
     color: #4484CE;
@@ -110,13 +111,15 @@ const TitleText = styled.text`
 `;
 
 const DescriptionText = styled.text`
-  font-size: 17px;
+  font-size: 18px;
   color: gray;
+  text-align: justify;
   display: flex;
   justify-content: center;
   align-items: center;
   span{
     color: #4484CE;
+    font-weight: bold;
   }
 `;
 
@@ -131,7 +134,18 @@ export default function index(props) {
         </VerticalContent1>
         <VerticalContent2>
           <Title>
-            <TitleText><p>I'm Gabriel Cardoso and <span>Freelancer</span></p></TitleText>
+            <TitleText>
+              <p>I'm Gabriel Cardoso and 
+                <span>
+                  <Typical
+                    steps={[' Programmer', 2000, ' Freelancer', 2000, ' Game Dev', 2000]}
+                    loop={Infinity}
+                    wait={1000}
+                    wrapper="span"
+                  />
+                </span>
+              </p>
+            </TitleText>
           </Title>
           <DescriptionBox>
             <Description>

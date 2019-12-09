@@ -1,5 +1,124 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./components/Abilities/index.js":
+/*!***************************************!*\
+  !*** ./components/Abilities/index.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _props_graphicTags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../props/graphicTags */ "./props/graphicTags.js");
+var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\Abilities\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Main = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Abilities__Main",
+  componentId: "sc-147kc7b-0"
+})(["background:green;width:100%;height:60vh;display:flex;flex-direction:row;justify-content:space-around;align-items:center;"]);
+var Texts = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Abilities__Texts",
+  componentId: "sc-147kc7b-1"
+})(["background:blue;width:40%;height:70%;display:flex;flex-direction:column;text-align:justify;"]);
+var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
+  displayName: "Abilities__Title",
+  componentId: "sc-147kc7b-2"
+})(["font-size:27px;color:black;"]);
+var Desc = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
+  displayName: "Abilities__Desc",
+  componentId: "sc-147kc7b-3"
+})(["font-size:17px;color:black;"]);
+var Graphics = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Abilities__Graphics",
+  componentId: "sc-147kc7b-4"
+})(["background:red;width:50%;height:70%;"]);
+function index(props) {
+  return __jsx(Main, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx(Texts, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, __jsx(Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Some About my Abilities"), __jsx(Desc, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.")), __jsx(Graphics, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTag"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, _props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicCards"].map(function (res) {
+    __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTexts"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["TitleTag"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, __jsx("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, "res.Title"), " res.Desc"), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["PercentText"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }, "95%")), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicScales"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["PercentBar"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
+    })));
+  }))));
+}
+
+/***/ }),
+
 /***/ "./components/AboutMe/index.js":
 /*!*************************************!*\
   !*** ./components/AboutMe/index.js ***!
@@ -15,8 +134,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _props_tags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../props/tags */ "./props/tags.js");
 /* harmony import */ var _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../props/linkButtons */ "./props/linkButtons.js");
+/* harmony import */ var react_typical__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-typical */ "./node_modules/react-typical/dist/index.es.js");
 var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\AboutMe\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -70,228 +191,238 @@ var Buttons = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.with
 var TitleText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
   displayName: "AboutMe__TitleText",
   componentId: "yxhggy-11"
-})(["font-size:30px;color:black;span{color:#4484CE;}"]);
+})(["font-size:28px;color:black;span{color:#4484CE;}"]);
 var DescriptionText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
   displayName: "AboutMe__DescriptionText",
   componentId: "yxhggy-12"
-})(["font-size:17px;color:gray;display:flex;justify-content:center;align-items:center;span{color:#4484CE;}"]);
+})(["font-size:18px;color:gray;text-align:justify;display:flex;justify-content:center;align-items:center;span{color:#4484CE;font-weight:bold;}"]);
 function index(props) {
   return __jsx(Main, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }, __jsx(MiniContent, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
-    },
-    __self: this
-  }, __jsx(VerticalContent1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  }, __jsx(BorderIndex, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 129
     },
     __self: this
-  }), __jsx(Photo, {
+  }, __jsx(MiniContent, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 130
     },
     __self: this
-  })), __jsx(VerticalContent2, {
+  }, __jsx(VerticalContent1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 131
+    },
+    __self: this
+  }, __jsx(BorderIndex, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 132
     },
     __self: this
-  }, __jsx(Title, {
+  }), __jsx(Photo, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 133
     },
     __self: this
-  }, __jsx(TitleText, {
+  })), __jsx(VerticalContent2, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 135
     },
     __self: this
-  }, __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134
-    },
-    __self: this
-  }, "I'm Gabriel Cardoso and ", __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134
-    },
-    __self: this
-  }, "Freelancer")))), __jsx(DescriptionBox, {
+  }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 136
     },
     __self: this
-  }, __jsx(Description, {
+  }, __jsx(TitleText, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 137
     },
     __self: this
-  }, __jsx(DescriptionText, {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 138
     },
     __self: this
-  }, __jsx("p", {
+  }, "I'm Gabriel Cardoso and", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 139
+    },
+    __self: this
+  }, __jsx(react_typical__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    steps: [' Programmer', 2000, ' Freelancer', 2000, ' Game Dev', 2000],
+    loop: Infinity,
+    wait: 1000,
+    wrapper: "span",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }))))), __jsx(DescriptionBox, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: this
+  }, __jsx(Description, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
+    },
+    __self: this
+  }, __jsx(DescriptionText, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 153
     },
     __self: this
   }, "Hi! My name is ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 153
     },
     __self: this
   }, "Gabriel Cardoso"), ". I am a Web Developer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration."))), __jsx(Description, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 163
     },
     __self: this
   }, __jsx(TagBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 164
     },
     __self: this
   }, _props_tags__WEBPACK_IMPORTED_MODULE_2__["Tag1"].map(function (res) {
     return __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["Block"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 153
+        lineNumber: 167
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["TagIcon"], {
       src: "./static/icons/".concat(res.icon),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 154
+        lineNumber: 168
       },
       __self: this
     }), __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTexts"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 155
+        lineNumber: 169
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTitle"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 156
+        lineNumber: 170
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 157
+        lineNumber: 171
       },
       __self: this
     }, res.textTitle)), __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 159
+        lineNumber: 173
       },
       __self: this
     }, res.textDesc)));
   })), __jsx(TagBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 179
     },
     __self: this
   }, _props_tags__WEBPACK_IMPORTED_MODULE_2__["Tag2"].map(function (res) {
     return __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["Block"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 168
+        lineNumber: 182
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["TagIcon"], {
       src: "./static/icons/".concat(res.icon),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 169
+        lineNumber: 183
       },
       __self: this
     }), __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTexts"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 170
+        lineNumber: 184
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTitle"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 171
+        lineNumber: 185
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 172
+        lineNumber: 186
       },
       __self: this
     }, res.textTitle)), __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 174
+        lineNumber: 188
       },
       __self: this
     }, res.textDesc)));
   })))), __jsx(Buttons, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 196
     },
     __self: this
   }, __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
     href: _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Linkedin_link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 197
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184
+      lineNumber: 198
     },
     __self: this
   }, _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Linkedin_text)), __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
     href: _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Github_link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 200
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187
+      lineNumber: 201
     },
     __self: this
   }, _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Github_text))))));
@@ -2234,6 +2365,152 @@ exports.isSuspense = isSuspense;
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/react-typical/dist/index.es.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/react-typical/dist/index.es.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+async function type(node, ...args) {
+    for (const arg of args) {
+        switch (typeof arg) {
+            case 'string':
+                await edit(node, arg);
+                break;
+            case 'number':
+                await wait(arg);
+                break;
+            case 'function':
+                await arg(node, ...args);
+                break;
+            default:
+                await arg;
+        }
+    }
+}
+
+async function edit(node, text) {
+    const overlap = getOverlap(node.textContent, text);
+    await perform(node, [...deleter(node.textContent, overlap), ...writer(text, overlap)]);
+}
+
+async function wait(ms) {
+    await new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function perform(node, edits, speed = 60) {
+    for (const op of editor(edits)) {
+        op(node);
+        await wait(speed + speed * (Math.random() - 0.5));
+    }
+}
+
+function* editor(edits) {
+    for (const edit of edits) {
+        yield (node) => requestAnimationFrame(() => node.textContent = edit);
+    }
+}
+
+function* writer([...text], startIndex = 0, endIndex = text.length) {
+    while (startIndex < endIndex) {
+        yield text.slice(0, ++startIndex).join('');
+    }
+}
+
+function* deleter([...text], startIndex = 0, endIndex = text.length) {
+    while (endIndex > startIndex) {
+        yield text.slice(0, --endIndex).join('');
+    }
+}
+
+function getOverlap(start, [...end]) {
+    return [...start, NaN].findIndex((char, i) => end[i] !== char);
+}
+
+function styleInject(css, ref) {
+  if ( ref === void 0 ) ref = {};
+  var insertAt = ref.insertAt;
+
+  if (!css || typeof document === 'undefined') { return; }
+
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
+  style.type = 'text/css';
+
+  if (insertAt === 'top') {
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild);
+    } else {
+      head.appendChild(style);
+    }
+  } else {
+    head.appendChild(style);
+  }
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var css = ".styles_typicalWrapper__1_Uvh::after {\n  content: \"|\";\n  animation: styles_blink__2CKyC 1s infinite step-start;\n}\n\n@keyframes styles_blink__2CKyC {\n  50% { opacity: 0; }\n}";
+var styles = { "typicalWrapper": "styles_typicalWrapper__1_Uvh", "blink": "styles_blink__2CKyC" };
+styleInject(css);
+
+var toConsumableArray = function (arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
+
+    return arr2;
+  } else {
+    return Array.from(arr);
+  }
+};
+
+var Typical = function Typical(_ref) {
+  var steps = _ref.steps,
+      loop = _ref.loop,
+      className = _ref.className,
+      _ref$wrapper = _ref.wrapper,
+      wrapper = _ref$wrapper === undefined ? "p" : _ref$wrapper;
+
+  var typicalRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+  var Component = wrapper;
+  var classNames = [styles.typicalWrapper];
+
+  if (className) {
+    classNames.unshift(className);
+  }
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    if (loop === Infinity) {
+      type.apply(undefined, [typicalRef.current].concat(toConsumableArray(steps), [type]));
+    } else if (typeof loop === "number") {
+      type.apply(undefined, [typicalRef.current].concat(toConsumableArray(Array(loop).fill(steps).flat())));
+    } else {
+      type.apply(undefined, [typicalRef.current].concat(toConsumableArray(steps)));
+    }
+  });
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, { ref: typicalRef, className: classNames.join(' ') });
+};
+
+var index = Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(Typical);
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+//# sourceMappingURL=index.es.js.map
 
 
 /***/ }),
@@ -4858,8 +5135,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner/index.js");
 /* harmony import */ var _components_AboutMe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/AboutMe */ "./components/AboutMe/index.js");
 /* harmony import */ var _components_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Services */ "./components/Services/index.js");
+/* harmony import */ var _components_Abilities__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Abilities */ "./components/Abilities/index.js");
 var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -4868,29 +5147,97 @@ function index() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, __jsx(_components_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), __jsx(_components_AboutMe__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx(_components_Abilities__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
     },
     __self: this
   }), __jsx(_components_Services__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
   }));
 }
+
+/***/ }),
+
+/***/ "./props/graphicTags.js":
+/*!******************************!*\
+  !*** ./props/graphicTags.js ***!
+  \******************************/
+/*! exports provided: GraphicTag, GraphicTexts, TitleTag, PercentText, GraphicScales, PercentBar, GraphicCards */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GraphicTag", function() { return GraphicTag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GraphicTexts", function() { return GraphicTexts; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TitleTag", function() { return TitleTag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PercentText", function() { return PercentText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GraphicScales", function() { return GraphicScales; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PercentBar", function() { return PercentBar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GraphicCards", function() { return GraphicCards; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+var GraphicTag = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "graphicTags__GraphicTag",
+  componentId: "yud892-0"
+})(["background:cyan;height:25%;width:100%;display:flex;flex-direction:column;"]);
+var GraphicTexts = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "graphicTags__GraphicTexts",
+  componentId: "yud892-1"
+})(["background:gray;width:100%;height:50%;display:flex;justify-content:space-between;"]);
+var TitleTag = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].text.withConfig({
+  displayName: "graphicTags__TitleTag",
+  componentId: "yud892-2"
+})(["font-size:15px;color:black;span{font-weight:bold;}"]);
+var PercentText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].text.withConfig({
+  displayName: "graphicTags__PercentText",
+  componentId: "yud892-3"
+})(["font-size:15px;color:black;font-weight:bold;"]);
+var GraphicScales = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "graphicTags__GraphicScales",
+  componentId: "yud892-4"
+})(["background:pink;width:100%;height:50%;display:flex;align-items:center;"]);
+var PercentBar = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "graphicTags__PercentBar",
+  componentId: "yud892-5"
+})(["background:black;width:100%;height:5px;border-radius:1px;"]);
+var GraphicCards = [{
+  Title: 'Unity',
+  Desc: ' - 3 years of experience',
+  PercentNumber: '95%'
+}, {
+  Title: 'Javascript',
+  Desc: ' - 2 years of experience',
+  PercentNumber: '65%'
+}, {
+  Title: 'React',
+  Desc: ' - 2 years of experience',
+  PercentNumber: '85%'
+}, {
+  Title: 'C#',
+  Desc: ' - 3 years of experience',
+  PercentNumber: '90%'
+}];
 
 /***/ }),
 
@@ -5002,7 +5349,7 @@ var TagIcon = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].img.with
 var BlockTexts = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "tags__BlockTexts",
   componentId: "sc-1yjw8k0-2"
-})(["width:100%;height:100%;display:flex;align-items:flex-end;padding-left:5px;color:Black;font-weight:bold;p:nth-child(2){color:#6f6f6f;font-weight:normal;}"]);
+})(["font-size:14px;width:100%;height:100%;display:flex;align-items:flex-end;padding-left:5px;color:Black;font-weight:bold;p:nth-child(2){color:#6f6f6f;font-weight:normal;}"]);
 var BlockTitle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "tags__BlockTitle",
   componentId: "sc-1yjw8k0-3"
@@ -5044,7 +5391,7 @@ var Tag2 = [{
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CGitProjects%5CWebPortifolio%5Cpages%5Cindex.js ***!
   \**********************************************************************************************************************/
@@ -5067,5 +5414,5 @@ module.exports = dll_24e240eb1453fb0dfc79;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

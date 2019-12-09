@@ -14,6 +14,7 @@ export const TagIcon = styled.img`
 `;
 
 export const BlockTexts = styled.div`
+  font-size: 14px;
   width: 100%;
   height: 100%;
   display: flex;
