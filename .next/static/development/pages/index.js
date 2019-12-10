@@ -22,15 +22,15 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Main = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Abilities__Main",
   componentId: "sc-147kc7b-0"
-})(["background:green;width:100%;height:60vh;display:flex;flex-direction:row;justify-content:space-around;align-items:center;"]);
+})(["width:100%;height:60vh;display:flex;flex-direction:row;justify-content:space-around;align-items:center;"]);
 var Texts = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Abilities__Texts",
   componentId: "sc-147kc7b-1"
-})(["background:blue;width:40%;height:70%;display:flex;flex-direction:column;text-align:justify;"]);
+})(["width:40%;height:70%;display:flex;flex-direction:column;text-align:justify;"]);
 var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
   displayName: "Abilities__Title",
   componentId: "sc-147kc7b-2"
-})(["font-size:27px;color:black;"]);
+})(["font-size:27px;color:black;padding-bottom:5vh;"]);
 var Desc = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
   displayName: "Abilities__Desc",
   componentId: "sc-147kc7b-3"
@@ -38,55 +38,55 @@ var Desc = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withCo
 var Graphics = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Abilities__Graphics",
   componentId: "sc-147kc7b-4"
-})(["background:red;width:50%;height:70%;"]);
+})(["width:50%;height:70%;"]);
 function index(props) {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 48
     },
     __self: this
   }, __jsx(Texts, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 49
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 50
     },
     __self: this
   }, "Some About my Abilities"), __jsx(Desc, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 51
     },
     __self: this
   }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.")), __jsx(Graphics, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTag"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 58
     },
     __self: this
   }, _props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicCards"].map(function (res) {
-    __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTexts"], {
+    return __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTag"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63
+        lineNumber: 61
+      },
+      __self: this
+    }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTexts"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
       },
       __self: this
     }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["TitleTag"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 63
       },
       __self: this
     }, __jsx("span", {
@@ -95,26 +95,26 @@ function index(props) {
         lineNumber: 64
       },
       __self: this
-    }, "res.Title"), " res.Desc"), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["PercentText"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65
-      },
-      __self: this
-    }, "95%")), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicScales"], {
+    }, res.Title), res.Desc), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["PercentText"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 67
       },
       __self: this
+    }, res.PercentNumber)), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicScales"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
     }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["PercentBar"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 70
       },
       __self: this
     })));
-  }))));
+  })));
 }
 
 /***/ }),
@@ -5200,11 +5200,11 @@ __webpack_require__.r(__webpack_exports__);
 var GraphicTag = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "graphicTags__GraphicTag",
   componentId: "yud892-0"
-})(["background:cyan;height:25%;width:100%;display:flex;flex-direction:column;"]);
+})(["height:25%;width:100%;display:flex;flex-direction:column;"]);
 var GraphicTexts = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "graphicTags__GraphicTexts",
   componentId: "yud892-1"
-})(["background:gray;width:100%;height:50%;display:flex;justify-content:space-between;"]);
+})(["width:100%;height:50%;display:flex;justify-content:space-between;"]);
 var TitleTag = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].text.withConfig({
   displayName: "graphicTags__TitleTag",
   componentId: "yud892-2"
@@ -5216,7 +5216,7 @@ var PercentText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].text
 var GraphicScales = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "graphicTags__GraphicScales",
   componentId: "yud892-4"
-})(["background:pink;width:100%;height:50%;display:flex;align-items:center;"]);
+})(["width:100%;height:50%;display:flex;align-items:flex-start;"]);
 var PercentBar = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "graphicTags__PercentBar",
   componentId: "yud892-5"
@@ -5228,7 +5228,7 @@ var GraphicCards = [{
 }, {
   Title: 'Javascript',
   Desc: ' - 2 years of experience',
-  PercentNumber: '65%'
+  PercentNumber: '70%'
 }, {
   Title: 'React',
   Desc: ' - 2 years of experience',

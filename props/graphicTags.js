@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const GraphicTag = styled.div`
-  background: cyan;
   height: 25%;
   width: 100%;
   display: flex;
@@ -9,7 +8,6 @@ export const GraphicTag = styled.div`
 `;
 
 export const GraphicTexts = styled.div`
-  background: gray;
   width: 100%;
   height: 50%;
   display: flex;
@@ -31,11 +29,10 @@ export const PercentText = styled.text`
 `;
 
 export const GraphicScales = styled.div`
-  background: pink;
   width: 100%;
   height: 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 `;
 
 export const PercentBar = styled.div`
@@ -54,7 +51,7 @@ export const GraphicCards = [
   {
     Title: 'Javascript',
     Desc: ' - 2 years of experience',
-    PercentNumber: '65%'
+    PercentNumber: '70%'
   },
   {
     Title: 'React',

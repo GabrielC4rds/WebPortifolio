@@ -9,8 +9,8 @@ import {
   PercentBar,
   GraphicCards,
 } from "../../props/graphicTags";
+
 const Main = styled.div`
-  background: green;
   width: 100%; 
   height: 60vh;
   display: flex;
@@ -20,7 +20,6 @@ const Main = styled.div`
 `;
 
 const Texts = styled.div`
-  background: blue;
   width: 40%;
   height: 70%;
   display: flex;
@@ -31,6 +30,7 @@ const Texts = styled.div`
 const Title = styled.text`
   font-size: 27px;
   color: black;
+  padding-bottom: 5vh;
 `;
 
 const Desc = styled.text`
@@ -39,7 +39,6 @@ const Desc = styled.text`
 `;
 
 const Graphics = styled.div`
-  background: red;
   width: 50%;
   height: 70%;
 `;
@@ -57,20 +56,23 @@ export default function index(props) {
           </Desc>
         </Texts>
         <Graphics>
-          <GraphicTag>
             {GraphicCards.map((res) => {
-              <>
-                <GraphicTexts>
-                  <TitleTag><span>res.Title</span> res.Desc</TitleTag>
-                  <PercentText>95%</PercentText>
-                </GraphicTexts>
-                <GraphicScales>
-                  <PercentBar></PercentBar>
-                </GraphicScales>
-                </>
+              return(
+                <GraphicTag>
+                  <GraphicTexts>
+                    <TitleTag>
+                      <span>{res.Title}</span> 
+                      {res.Desc}
+                    </TitleTag>
+                    <PercentText>{res.PercentNumber}</PercentText>
+                  </GraphicTexts>
+                  <GraphicScales>
+                    <PercentBar></PercentBar>
+                  </GraphicScales>
+                </GraphicTag>
+              )
             })
           }
-          </GraphicTag>
         </Graphics>
       </Main>
     );
