@@ -108,15 +108,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _props_graphicTags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../props/graphicTags */ "./props/graphicTags.js");
+/* harmony import */ var react_sweet_progress__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-sweet-progress */ "react-sweet-progress");
+/* harmony import */ var react_sweet_progress__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_sweet_progress__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_sweet_progress_lib_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-sweet-progress/lib/style.css */ "./node_modules/react-sweet-progress/lib/style.css");
+/* harmony import */ var react_sweet_progress_lib_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_sweet_progress_lib_style_css__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\Abilities\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Abilities__Main",
   componentId: "sc-147kc7b-0"
-})(["width:100%;height:60vh;display:flex;flex-direction:row;justify-content:space-around;align-items:center;"]);
+})(["width:100%;height:60vh;display:flex;flex-direction:row;justify-content:space-around;align-items:center;background:#f7f7f7;"]);
 const Texts = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Abilities__Texts",
   componentId: "sc-147kc7b-1"
@@ -137,74 +143,82 @@ function index(props) {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 53
     },
     __self: this
   }, __jsx(Texts, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 54
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 55
     },
     __self: this
   }, "Some About my Abilities"), __jsx(Desc, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 56
     },
     __self: this
   }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.")), __jsx(Graphics, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 63
     },
     __self: this
   }, _props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicCards"].map(res => {
     return __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTag"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 66
       },
       __self: this
     }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicTexts"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62
+        lineNumber: 67
       },
       __self: this
     }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["TitleTag"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63
+        lineNumber: 68
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 69
       },
       __self: this
     }, res.Title), res.Desc), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["PercentText"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 72
       },
       __self: this
-    }, res.PercentNumber)), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicScales"], {
+    }, res.PercentNumber, "%")), __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["GraphicScales"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 74
       },
       __self: this
-    }, __jsx(_props_graphicTags__WEBPACK_IMPORTED_MODULE_2__["PercentBar"], {
+    }, __jsx(react_sweet_progress__WEBPACK_IMPORTED_MODULE_3__["Progress"], {
+      percent: res.PercentNumber,
+      status: "default",
+      theme: {
+        default: {
+          color: 'black',
+          symbol: ''
+        }
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 75
       },
       __self: this
     })));
@@ -643,6 +657,112 @@ function index() {
 
 /***/ }),
 
+/***/ "./components/ContactMe/index.js":
+/*!***************************************!*\
+  !*** ./components/ContactMe/index.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\ContactMe\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__Main",
+  componentId: "sc-1lu0i0g-0"
+})(["background:gray;height:100vh;width:100%;display:flex;flex-direction:column;justify-content:space-around;align-items:center;"]);
+const TitleDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__TitleDiv",
+  componentId: "sc-1lu0i0g-1"
+})(["background:green;width:90%;height:15vh;display:flex;align-items:center;"]);
+const Box = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__Box",
+  componentId: "sc-1lu0i0g-2"
+})(["background:#4484CE;height:100%;width:10px;"]);
+const Texts = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__Texts",
+  componentId: "sc-1lu0i0g-3"
+})(["background:pink;width:60vw;height:90%;display:flex;flex-direction:column;margin:0 20px;"]);
+const TextTitle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__TextTitle",
+  componentId: "sc-1lu0i0g-4"
+})(["width:30%;height:70%;background:yellow;"]);
+const TextDesc = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__TextDesc",
+  componentId: "sc-1lu0i0g-5"
+})(["width:30%;height:30%;background:red;"]);
+const Content = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__Content",
+  componentId: "sc-1lu0i0g-6"
+})(["background:cyan;width:90%;height:60vh;"]);
+function index(props) {
+  return __jsx(Main, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, __jsx(TitleDiv, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, __jsx(Box, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }), __jsx(Texts, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, __jsx(TextTitle, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "CONTACT ME")), __jsx(TextDesc, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "Get in touch with me")))), __jsx(Content, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }));
+}
+
+/***/ }),
+
 /***/ "./components/Services/index.js":
 /*!**************************************!*\
   !*** ./components/Services/index.js ***!
@@ -666,7 +786,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Services__Main",
   componentId: "sc-1scr0xy-0"
-})(["width:100%;height:100vh;display:flex;justify-content:center;align-items:flex-start;flex-direction:column;padding:10vh 5vw;background:#f7f7f7;"]);
+})(["width:100%;height:100vh;display:flex;justify-content:center;align-items:flex-start;flex-direction:column;padding:10vh 5vw;background:#fff;"]);
 const TitleDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Services__TitleDiv",
   componentId: "sc-1scr0xy-1"
@@ -768,6 +888,17 @@ function index(props) {
 
 /***/ }),
 
+/***/ "./node_modules/react-sweet-progress/lib/style.css":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-sweet-progress/lib/style.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -784,8 +915,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_AboutMe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/AboutMe */ "./components/AboutMe/index.js");
 /* harmony import */ var _components_Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Services */ "./components/Services/index.js");
 /* harmony import */ var _components_Abilities__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Abilities */ "./components/Abilities/index.js");
+/* harmony import */ var _components_ContactMe__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ContactMe */ "./components/ContactMe/index.js");
 var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -820,6 +953,12 @@ function index() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
+    },
+    __self: this
+  }), __jsx(_components_ContactMe__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
     },
     __self: this
   }));
@@ -873,19 +1012,19 @@ const PercentBar = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.
 const GraphicCards = [{
   Title: 'Unity',
   Desc: ' - 3 years of experience',
-  PercentNumber: '95%'
+  PercentNumber: '95'
 }, {
   Title: 'Javascript',
   Desc: ' - 2 years of experience',
-  PercentNumber: '70%'
+  PercentNumber: '70'
 }, {
   Title: 'React',
   Desc: ' - 2 years of experience',
-  PercentNumber: '85%'
+  PercentNumber: '85'
 }, {
   Title: 'C#',
   Desc: ' - 3 years of experience',
-  PercentNumber: '90%'
+  PercentNumber: '90'
 }];
 
 /***/ }),
@@ -1063,6 +1202,17 @@ module.exports = __webpack_require__(/*! C:\GitProjects\WebPortifolio\pages\inde
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-sweet-progress":
+/*!***************************************!*\
+  !*** external "react-sweet-progress" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-sweet-progress");
 
 /***/ }),
 

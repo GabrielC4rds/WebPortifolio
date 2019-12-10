@@ -17,7 +17,7 @@ const Main = styled.div`
   align-items: flex-start;
   flex-direction: column;
   padding: 10vh 5vw;
-  background: #f7f7f7;
+  background: #fff;
 `;
 
 const TitleDiv = styled.div`

@@ -9,6 +9,9 @@ import {
   PercentBar,
   GraphicCards,
 } from "../../props/graphicTags";
+import { Progress } from 'react-sweet-progress';
+import "react-sweet-progress/lib/style.css";
+
 
 const Main = styled.div`
   width: 100%; 
@@ -17,6 +20,8 @@ const Main = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background: #f7f7f7;
+
 `;
 
 const Texts = styled.div`
@@ -64,10 +69,19 @@ export default function index(props) {
                       <span>{res.Title}</span> 
                       {res.Desc}
                     </TitleTag>
-                    <PercentText>{res.PercentNumber}</PercentText>
+                    <PercentText>{res.PercentNumber}%</PercentText>
                   </GraphicTexts>
                   <GraphicScales>
-                    <PercentBar></PercentBar>
+                    <Progress 
+                    percent={res.PercentNumber}
+                    status="default"
+                    theme = {{
+                      default: {
+                        color: 'black',
+                        symbol: ''
+                      }
+                    }}
+                    />
                   </GraphicScales>
                 </GraphicTag>
               )

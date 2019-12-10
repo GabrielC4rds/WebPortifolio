@@ -46,21 +46,21 @@ export const GraphicCards = [
   {
     Title: 'Unity',
     Desc: ' - 3 years of experience',
-    PercentNumber: '95%'
+    PercentNumber: '95'
   },
   {
     Title: 'Javascript',
     Desc: ' - 2 years of experience',
-    PercentNumber: '70%'
+    PercentNumber: '70'
   },
   {
     Title: 'React',
     Desc: ' - 2 years of experience',
-    PercentNumber: '85%'
+    PercentNumber: '85'
   },
   {
     Title: 'C#',
     Desc: ' - 3 years of experience',
-    PercentNumber: '90%'
+    PercentNumber: '90'
   }
 ]
