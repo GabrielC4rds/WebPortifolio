@@ -49,7 +49,7 @@ const Photo = styled.div`
   background: blue;
   width: 60%;
   height: 85%;
-  margin-right: 2vw; 
+  margin-right: 5vw; 
   margin-bottom: 50px;
   z-index: -1;
   position: relative;

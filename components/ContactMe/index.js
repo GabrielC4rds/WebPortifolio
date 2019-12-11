@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {ContactTags} from "../../props/contactTags";
 
 const Main = styled.div`
   background: gray;
@@ -35,21 +36,79 @@ const Texts = styled.div`
 `;
 
 const TextTitle = styled.div`
-  width: 30%;
+  width: 40%;
   height: 70%;
   background: yellow;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 45px;
 `;
 
 const TextDesc = styled.div`
   width: 30%;
   height: 30%;
   background: red;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
 `;
 
 const Content = styled.div`
   background: cyan;
   width: 90%;
   height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+const Column1 = styled.div`
+  background: blue;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+`;
+
+const Column2 = styled.div`
+  background: brown;
+  width: 45%;
+  height: 100%;
+`;
+
+const ContentTitle = styled.div`
+  background: yellow;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  p{
+    font-size: 27px;
+    font-weight: 550;
+  }
+`;
+
+const ContentSubtitle = styled.div`
+  background: red;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+`;
+
+const TextsTags = styled.div`
+  background: #9c3bf3;
+  width: 100%;
+  height: 20%;
+  p{
+    font-size: 15px;
+    span{
+      font-weight: bold;
+    }
+  }
 `;
 
 export default function index(props) {
@@ -66,7 +125,24 @@ export default function index(props) {
           </TextDesc>
         </Texts>
       </TitleDiv>
-      <Content></Content>
+      <Content>
+        <Column1>
+          <ContentTitle>
+            <p>Get in Touch</p>
+          </ContentTitle>
+          <ContentSubtitle>
+            {ContactTags.map((res) =>
+              <TextsTags>
+                <p>
+                  <span>{res.Title}: </span>
+                  {res.Desc}
+                </p>
+              </TextsTags>
+            )}
+          </ContentSubtitle>
+        </Column1>
+        <Column2></Column2>
+      </Content>
     </Main>
   );
 }
