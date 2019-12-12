@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AllBtn = styled.a`
     width: 17vw;
-    height: 7.5vh;
+    height: 8vh;
     background: #4484CE;
     border: none;
     display: flex;
@@ -14,6 +14,7 @@ export const AllBtn = styled.a`
     cursor: pointer;
     font-size: 18px;
     text-decoration: none;
+    border-radius: 3px;
    
 `;
 

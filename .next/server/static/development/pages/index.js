@@ -130,7 +130,7 @@ const Texts = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withC
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.text.withConfig({
   displayName: "Abilities__Title",
   componentId: "sc-147kc7b-2"
-})(["font-size:27px;color:black;padding-bottom:5vh;"]);
+})(["font-size:26px;color:black;font-weight:510;padding-bottom:5vh;"]);
 const Desc = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.text.withConfig({
   displayName: "Abilities__Desc",
   componentId: "sc-147kc7b-3"
@@ -301,7 +301,7 @@ const Buttons = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.wit
 const TitleText = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.text.withConfig({
   displayName: "AboutMe__TitleText",
   componentId: "yxhggy-11"
-})(["font-size:28px;color:black;span{color:#4484CE;}"]);
+})(["font-size:26px;color:black;font-weight:510;span{color:#4484CE;}"]);
 const DescriptionText = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.text.withConfig({
   displayName: "AboutMe__DescriptionText",
   componentId: "yxhggy-12"
@@ -310,61 +310,61 @@ function index(props) {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 130
     },
     __self: this
   }, __jsx(MiniContent, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 131
     },
     __self: this
   }, __jsx(VerticalContent1, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 132
     },
     __self: this
   }, __jsx(BorderIndex, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 133
     },
     __self: this
   }), __jsx(Photo, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 134
     },
     __self: this
   })), __jsx(VerticalContent2, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 136
     },
     __self: this
   }, __jsx(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 137
     },
     __self: this
   }, __jsx(TitleText, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 138
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 139
     },
     __self: this
   }, "I'm Gabriel Cardoso and", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 140
     },
     __self: this
   }, __jsx(react_typical__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -374,165 +374,165 @@ function index(props) {
     wrapper: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 141
     },
     __self: this
   }))))), __jsx(DescriptionBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 151
     },
     __self: this
   }, __jsx(Description, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 152
     },
     __self: this
   }, __jsx(DescriptionText, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 153
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 154
     },
     __self: this
   }, "Hi! My name is ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 154
     },
     __self: this
   }, "Gabriel Cardoso"), ". I am a Web Developer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration."))), __jsx(Description, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 164
     },
     __self: this
   }, __jsx(TagBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 165
     },
     __self: this
   }, _props_tags__WEBPACK_IMPORTED_MODULE_2__["Tag1"].map(res => {
     return __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["Block"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 167
+        lineNumber: 168
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["TagIcon"], {
       src: `./static/icons/${res.icon}`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 168
+        lineNumber: 169
       },
       __self: this
     }), __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTexts"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 169
+        lineNumber: 170
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTitle"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 170
+        lineNumber: 171
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 171
+        lineNumber: 172
       },
       __self: this
     }, res.textTitle)), __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 173
+        lineNumber: 174
       },
       __self: this
     }, res.textDesc)));
   })), __jsx(TagBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 180
     },
     __self: this
   }, _props_tags__WEBPACK_IMPORTED_MODULE_2__["Tag2"].map(res => {
     return __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["Block"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 182
+        lineNumber: 183
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["TagIcon"], {
       src: `./static/icons/${res.icon}`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 183
+        lineNumber: 184
       },
       __self: this
     }), __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTexts"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 184
+        lineNumber: 185
       },
       __self: this
     }, __jsx(_props_tags__WEBPACK_IMPORTED_MODULE_2__["BlockTitle"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 185
+        lineNumber: 186
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 186
+        lineNumber: 187
       },
       __self: this
     }, res.textTitle)), __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 188
+        lineNumber: 189
       },
       __self: this
     }, res.textDesc)));
   })))), __jsx(Buttons, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196
+      lineNumber: 197
     },
     __self: this
   }, __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
     href: _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Linkedin_link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197
+      lineNumber: 198
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198
+      lineNumber: 199
     },
     __self: this
   }, _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Linkedin_text)), __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
     href: _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Github_link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200
+      lineNumber: 201
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201
+      lineNumber: 202
     },
     __self: this
   }, _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["Btn"].Github_text))))));
@@ -672,19 +672,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _props_contactTags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../props/contactTags */ "./props/contactTags.js");
+/* harmony import */ var _props_linkButtons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../props/linkButtons */ "./props/linkButtons.js");
 var _jsxFileName = "C:\\GitProjects\\WebPortifolio\\components\\ContactMe\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
 const Main = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__Main",
   componentId: "sc-1lu0i0g-0"
-})(["background:gray;height:100vh;width:100%;display:flex;flex-direction:column;justify-content:space-around;align-items:center;"]);
+})(["height:100vh;width:100%;display:flex;flex-direction:column;justify-content:space-around;align-items:center;"]);
 const TitleDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__TitleDiv",
   componentId: "sc-1lu0i0g-1"
-})(["background:green;width:90%;height:15vh;display:flex;align-items:center;"]);
+})(["width:90%;height:15vh;display:flex;align-items:center;"]);
 const Box = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__Box",
   componentId: "sc-1lu0i0g-2"
@@ -692,143 +694,185 @@ const Box = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withCon
 const Texts = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__Texts",
   componentId: "sc-1lu0i0g-3"
-})(["background:pink;width:60vw;height:90%;display:flex;flex-direction:column;margin:0 20px;"]);
+})(["width:60vw;height:90%;display:flex;flex-direction:column;margin:0 20px;"]);
 const TextTitle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__TextTitle",
   componentId: "sc-1lu0i0g-4"
-})(["width:40%;height:70%;background:yellow;display:flex;align-items:center;font-weight:bold;font-size:45px;"]);
+})(["width:40%;height:70%;display:flex;align-items:center;font-weight:bold;font-size:45px;"]);
 const TextDesc = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__TextDesc",
   componentId: "sc-1lu0i0g-5"
-})(["width:30%;height:30%;background:red;display:flex;align-items:center;font-size:20px;"]);
+})(["width:30%;height:30%;display:flex;align-items:center;font-size:20px;"]);
 const Content = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__Content",
   componentId: "sc-1lu0i0g-6"
-})(["background:cyan;width:90%;height:60vh;display:flex;flex-direction:row;justify-content:space-between;"]);
+})(["width:90%;height:60vh;display:flex;flex-direction:row;justify-content:space-between;"]);
 const Column1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__Column1",
   componentId: "sc-1lu0i0g-7"
-})(["background:blue;width:45%;height:100%;display:flex;flex-direction:column;justify-content:space-around;"]);
-const Column2 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "ContactMe__Column2",
-  componentId: "sc-1lu0i0g-8"
-})(["background:brown;width:45%;height:100%;"]);
+})(["width:45%;height:60%;display:flex;flex-direction:column;justify-content:space-around;"]);
 const ContentTitle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__ContentTitle",
-  componentId: "sc-1lu0i0g-9"
-})(["background:yellow;height:20%;width:100%;display:flex;align-items:center;p{font-size:27px;font-weight:550;}"]);
+  componentId: "sc-1lu0i0g-8"
+})(["height:20%;width:100%;display:flex;align-items:center;p{font-size:27px;font-weight:550;}"]);
 const ContentSubtitle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__ContentSubtitle",
-  componentId: "sc-1lu0i0g-10"
-})(["background:red;height:60%;width:100%;display:flex;justify-content:space-around;flex-direction:column;"]);
+  componentId: "sc-1lu0i0g-9"
+})(["height:60%;width:100%;display:flex;justify-content:space-around;flex-direction:column;"]);
 const TextsTags = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactMe__TextsTags",
+  componentId: "sc-1lu0i0g-10"
+})(["width:100%;height:20%;p{font-size:15px;span{font-weight:bold;}}"]);
+const Column2 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "ContactMe__Column2",
   componentId: "sc-1lu0i0g-11"
-})(["background:#9c3bf3;width:100%;height:20%;p{font-size:15px;span{font-weight:bold;}}"]);
+})(["width:45%;height:100%;display:flex;flex-direction:column;justify-content:space-between;"]);
+const InputTag = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.input.withConfig({
+  displayName: "ContactMe__InputTag",
+  componentId: "sc-1lu0i0g-12"
+})(["background:transparent;border:none;width:100%;height:30px;border-bottom:1px solid #000;:focus{outline:none;border:none;border-bottom:1px solid #000;}"]);
+const AreaTag = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.textarea.withConfig({
+  displayName: "ContactMe__AreaTag",
+  componentId: "sc-1lu0i0g-13"
+})(["width:100%;height:35%;border:none;background:transparent;border-bottom:1px solid #000;:focus{outline:none;border:none;border-bottom:1px solid #000;}"]);
 function index(props) {
   return __jsx(Main, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 138
     },
     __self: this
   }, __jsx(TitleDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 139
     },
     __self: this
   }, __jsx(Box, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 140
     },
     __self: this
   }), __jsx(Texts, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 141
     },
     __self: this
   }, __jsx(TextTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 142
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 143
     },
     __self: this
   }, "CONTACT ME")), __jsx(TextDesc, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 145
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 146
     },
     __self: this
   }, "Get in touch with me")))), __jsx(Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 150
     },
     __self: this
   }, __jsx(Column1, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 151
     },
     __self: this
   }, __jsx(ContentTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 152
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 153
     },
     __self: this
   }, "Get in Touch")), __jsx(ContentSubtitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 155
     },
     __self: this
   }, _props_contactTags__WEBPACK_IMPORTED_MODULE_2__["ContactTags"].map(res => __jsx(TextsTags, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 157
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 158
     },
     __self: this
   }, __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 159
     },
     __self: this
   }, res.Title, ": "), res.Desc))))), __jsx(Column2, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 166
     },
     __self: this
-  })));
+  }, __jsx(InputTag, {
+    placeholder: "Name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167
+    },
+    __self: this
+  }), __jsx(InputTag, {
+    placeholder: "Email",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168
+    },
+    __self: this
+  }), __jsx(InputTag, {
+    placeholder: "Subject",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169
+    },
+    __self: this
+  }), __jsx(AreaTag, {
+    placeholder: "Message",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170
+    },
+    __self: this
+  }), __jsx(_props_linkButtons__WEBPACK_IMPORTED_MODULE_3__["AllBtn"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 171
+    },
+    __self: this
+  }, "Send Message"))));
 }
 
 /***/ }),
@@ -1145,7 +1189,7 @@ __webpack_require__.r(__webpack_exports__);
 const AllBtn = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a.withConfig({
   displayName: "linkButtons__AllBtn",
   componentId: "z0jiz4-0"
-})(["width:17vw;height:7.5vh;background:#4484CE;border:none;display:flex;align-items:center;justify-content:center;margin-right:20px;color:#fff;padding:0;cursor:pointer;font-size:18px;text-decoration:none;"]);
+})(["width:17vw;height:8vh;background:#4484CE;border:none;display:flex;align-items:center;justify-content:center;margin-right:20px;color:#fff;padding:0;cursor:pointer;font-size:18px;text-decoration:none;border-radius:3px;"]);
 const Btn = {
   Linkedin_text: 'LinkedIn',
   Linkedin_link: 'https://www.linkedin.com/in/gabriel-cardoso-258576189/',

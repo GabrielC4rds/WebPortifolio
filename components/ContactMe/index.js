@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import {ContactTags} from "../../props/contactTags";
+import { AllBtn } from '../../props/linkButtons';
 
 const Main = styled.div`
-  background: gray;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -13,7 +13,6 @@ const Main = styled.div`
 `;
 
 const TitleDiv = styled.div`
-  background: green;
   width: 90%;
   height: 15vh;
   display: flex;
@@ -27,7 +26,6 @@ const Box = styled.div`
 `;
 
 const Texts = styled.div`
-  background: pink;
   width: 60vw;
   height: 90%;
   display: flex;
@@ -38,7 +36,6 @@ const Texts = styled.div`
 const TextTitle = styled.div`
   width: 40%;
   height: 70%;
-  background: yellow;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -48,14 +45,12 @@ const TextTitle = styled.div`
 const TextDesc = styled.div`
   width: 30%;
   height: 30%;
-  background: red;
   display: flex;
   align-items: center;
   font-size: 20px;
 `;
 
 const Content = styled.div`
-  background: cyan;
   width: 90%;
   height: 60vh;
   display: flex;
@@ -64,22 +59,16 @@ const Content = styled.div`
 `;
 
 const Column1 = styled.div`
-  background: blue;
   width: 45%;
-  height: 100%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 `;
 
-const Column2 = styled.div`
-  background: brown;
-  width: 45%;
-  height: 100%;
-`;
+
 
 const ContentTitle = styled.div`
-  background: yellow;
   height: 20%;
   width: 100%;
   display: flex;
@@ -91,7 +80,6 @@ const ContentTitle = styled.div`
 `;
 
 const ContentSubtitle = styled.div`
-  background: red;
   height: 60%;
   width: 100%;
   display: flex;
@@ -100,7 +88,6 @@ const ContentSubtitle = styled.div`
 `;
 
 const TextsTags = styled.div`
-  background: #9c3bf3;
   width: 100%;
   height: 20%;
   p{
@@ -110,6 +97,41 @@ const TextsTags = styled.div`
     }
   }
 `;
+
+const Column2 = styled.div`
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const InputTag = styled.input`
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #000;
+  :focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+`;
+
+const AreaTag = styled.textarea`
+  width: 100%;
+  height: 35%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000;
+  :focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+`;
+
 
 export default function index(props) {
   return (
@@ -141,7 +163,13 @@ export default function index(props) {
             )}
           </ContentSubtitle>
         </Column1>
-        <Column2></Column2>
+        <Column2>
+          <InputTag placeholder="Name"/>
+          <InputTag placeholder="Email"/>
+          <InputTag placeholder="Subject"/>
+          <AreaTag placeholder="Message"/>
+          <AllBtn>Send Message</AllBtn>
+        </Column2>
       </Content>
     </Main>
   );

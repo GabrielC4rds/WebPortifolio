@@ -6,7 +6,6 @@ import {
   GraphicTexts,
   PercentText,
   GraphicScales,
-  PercentBar,
   GraphicCards,
 } from "../../props/graphicTags";
 import { Progress } from 'react-sweet-progress';
@@ -33,8 +32,9 @@ const Texts = styled.div`
 `;
 
 const Title = styled.text`
-  font-size: 27px;
+  font-size: 26px;
   color: black;
+  font-weight: 510;
   padding-bottom: 5vh;
 `;
 

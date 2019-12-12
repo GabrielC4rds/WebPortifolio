@@ -103,8 +103,9 @@ const Buttons = styled.div`
 //Styled Text
 
 const TitleText = styled.text`
-  font-size: 28px;
+  font-size: 26px;
   color: black;
+  font-weight: 510;
   span{
     color: #4484CE;
   }
