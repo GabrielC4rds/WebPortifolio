@@ -72,7 +72,7 @@ var Buttons = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.with
 var TitleText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
   displayName: "AboutMe__TitleText",
   componentId: "yxhggy-11"
-})(["font-size:28px;color:black;font-weight:500;span{color:#4484CE;}"]);
+})(["font-size:26px;color:black;font-weight:510;span{color:#4484CE;}"]);
 var DescriptionText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].text.withConfig({
   displayName: "AboutMe__DescriptionText",
   componentId: "yxhggy-12"
@@ -139,7 +139,7 @@ function index(props) {
     },
     __self: this
   }, __jsx(react_typical__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    steps: [' Programmer', 2000, ' Freelancer', 2000, ' Game Dev', 2000],
+    steps: [' Programmer', 2000, ' Freelancer', 2000, ' Game Design', 2000],
     loop: Infinity,
     wait: 1000,
     wrapper: "span",
@@ -312,4 +312,4 @@ function index(props) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.70f200db65151718e9e8.hot-update.js.map
+//# sourceMappingURL=index.js.91a0ca837c086a49d600.hot-update.js.map
